@@ -6,6 +6,7 @@ fn main() {
     println!("The result is {}", var);
     whileme();
     forloop();
+    range_usage();
 }
 
 
@@ -28,4 +29,11 @@ fn forloop () {
     for element in a.iter() {
         println!("the value is: {}", element);
     }
+}
+
+fn range_usage() {
+    for number in (1..4).rev() {
+        println!("{}!", number);
+    }
+    println!("LIFTOFF!!!");
 }
