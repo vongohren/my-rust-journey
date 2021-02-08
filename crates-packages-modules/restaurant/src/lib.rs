@@ -5,6 +5,7 @@ pub fn eat_at_restaurant() {
     crate::front_of_house::hosting::add_to_waitlist();
     // Relative path
     front_of_house::hosting::add_to_waitlist();
+    //Use path, see top of the file
     hosting::add_to_waitlist();
     hosting::add_to_waitlist();
     hosting::add_to_waitlist();
